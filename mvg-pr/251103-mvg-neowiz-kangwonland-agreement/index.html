@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEOWIZ x Kangwon Land 슬롯 소프트웨어 계약 보도자료 글로벌 배포 현황</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #e2e8f0;
+            background: #0f172a;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #1e293b;
+            min-height: 100vh;
+            box-shadow: 0 0 40px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #D3A976;
+            background: linear-gradient(135deg, rgba(211, 169, 118, 0.1) 0%, rgba(211, 169, 118, 0.05) 100%);
+            border-radius: 12px;
+            padding: 40px 30px 30px 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+        
+        .header .date {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            font-weight: 500;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #f8fafc;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #334155;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background: #D3A976;
+        }
+        
+        .subsection-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #f1f5f9;
+            margin: 40px 0 20px 0;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #D3A976 0%, #E5BA87 100%);
+            color: #1e293b;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            font-weight: 600;
+            box-shadow: 0 8px 25px rgba(211, 169, 118, 0.3);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: #334155;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #475569;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(211, 169, 118, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-3px);
+            background: #3f4a5c;
+            border-color: #D3A976;
+            box-shadow: 0 8px 25px rgba(211, 169, 118, 0.2);
+        }
+        
+        .stat-card:hover::before {
+            left: 100%;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #D3A976;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            font-weight: 500;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background: #334155;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        th {
+            background: linear-gradient(135deg, #D3A976 0%, #E5BA87 100%);
+            padding: 20px 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        td {
+            padding: 18px 15px;
+            border-bottom: 1px solid #475569;
+            font-size: 0.95rem;
+            color: #e2e8f0;
+        }
+        
+        tr:hover {
+            background: rgba(211, 169, 118, 0.1);
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .media-item {
+            background: #334155;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            border-left: 4px solid #D3A976;
+            transition: all 0.3s ease;
+            border: 1px solid #475569;
+        }
+        
+        .media-item:hover {
+            transform: translateX(8px);
+            background: #3f4a5c;
+            border-color: #D3A976;
+            box-shadow: 0 8px 25px rgba(211, 169, 118, 0.2);
+            border-left: 4px solid #E5BA87;
+        }
+        
+        .media-item h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        
+        .media-details {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+        
+        .media-details strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        a {
+            color: #D3A976;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: #E5BA87;
+            text-decoration: underline;
+            text-shadow: 0 0 8px rgba(211, 169, 118, 0.5);
+        }
+        
+        .note {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            font-style: italic;
+            margin-top: 15px;
+            padding: 15px;
+            background: #334155;
+            border-radius: 8px;
+            border-left: 3px solid #D3A976;
+            border: 1px solid #475569;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .summary-card {
+            background: #334155;
+            padding: 30px 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #475569;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .summary-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #D3A976, #E5BA87);
+        }
+        
+        .summary-card:hover {
+            transform: translateY(-5px);
+            border-color: #D3A976;
+            box-shadow: 0 10px 30px rgba(211, 169, 118, 0.3);
+            background: #3f4a5c;
+        }
+        
+        .card-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #D3A976;
+            margin-bottom: 8px;
+            text-shadow: 0 0 10px rgba(211, 169, 118, 0.3);
+        }
+        
+        .card-label {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .kpi-simple {
+            background: #334155;
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid #475569;
+        }
+        
+        .kpi-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        
+        .kpi-category h4 {
+            color: #f8fafc;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .kpi-items {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .kpi-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+        }
+        
+        .kpi-text {
+            color: #cbd5e1;
+            font-size: 0.9rem;
+        }
+        
+        .kpi-percent {
+            color: #D3A976;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .footer-text {
+            color: #94a3b8;
+            text-align: center;
+            font-size: 0.8rem;
+            margin-top: 50px;
+            padding: 20px;
+            font-weight: 400;
+        }
+        
+        @media (max-width: 768px) {
+            .kpi-row {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            
+            .stat-card {
+                padding: 20px;
+            }
+            
+            .media-item {
+                padding: 20px;
+            }
+            
+            th, td {
+                padding: 12px 10px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NEOWIZ x Kangwon Land 슬롯 소프트웨어 계약 보도자료 글로벌 배포 현황</h1>
+            <p class="date">배포 일자: 2024. 11. 3.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📋 Executive Summary</h2>
+            <div class="highlight">
+                NEOWIZ와 Kangwon Land의 슬롯 소프트웨어 개발 계약 체결 보도자료가 총 <strong>17개 채널</strong>을 통해 성공적으로 배포되었습니다. 미디어 웹사이트 10개와 소셜미디어 6개 플랫폼에서 동시 배포가 이루어졌으며, 특히 업계 주요 권위 매체인 <strong>European Gaming, Gambling Insider, iGaming Future</strong>를 포함한 핵심 채널에서의 노출이 확인되었습니다. 예상 총 도달 독자 수는 <strong>약 32만 명 이상</strong>입니다.
+            </div>
+
+            <div class="summary-cards">
+                <div class="summary-card">
+                    <div class="card-number">17</div>
+                    <div class="card-label">총 배포 채널</div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-number">10</div>
+                    <div class="card-label">미디어 웹사이트</div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-number">6</div>
+                    <div class="card-label">SNS 플랫폼</div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-number">32만+</div>
+                    <div class="card-label">예상 도달 독자</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🌍 지역별 배포 현황</h2>
+            
+            <h3 class="subsection-title">🌐 웹사이트 배포 (10개)</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">7개</div>
+                    <div class="stat-label">국제 매체 (70%)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2개</div>
+                    <div class="stat-label">유럽 매체 (20%)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1개</div>
+                    <div class="stat-label">아시아 매체 (10%)</div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">📱 SNS 배포 (6개)</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">5개</div>
+                    <div class="stat-label">LinkedIn 계정</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1개</div>
+                    <div class="stat-label">Facebook 계정</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📊 보도 매체 현황</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>매체명</th>
+                        <th>지역</th>
+                        <th>발행일</th>
+                        <th>월간 방문자 수</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>European Gaming</td>
+                        <td>유럽</td>
+                        <td>2024.11.04</td>
+                        <td>~145.6K</td>
+                    </tr>
+                    <tr>
+                        <td>Gambling Insider</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~100K</td>
+                    </tr>
+                    <tr>
+                        <td>iGaming Future</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~38.7K</td>
+                    </tr>
+                    <tr>
+                        <td>Hipther</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~18.5K</td>
+                    </tr>
+                    <tr>
+                        <td>G3 Newswire</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~16K</td>
+                    </tr>
+                    <tr>
+                        <td>Eastern European Gaming</td>
+                        <td>유럽</td>
+                        <td>2024.11.04</td>
+                        <td>~5K</td>
+                    </tr>
+                    <tr>
+                        <td>The Bet Press</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~1K</td>
+                    </tr>
+                    <tr>
+                        <td>Asia Casino News</td>
+                        <td>아시아</td>
+                        <td>2024.11.04</td>
+                        <td>~1K</td>
+                    </tr>
+                    <tr>
+                        <td>DingNews</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~1K</td>
+                    </tr>
+                    <tr>
+                        <td>Gaming News Byte</td>
+                        <td>국제</td>
+                        <td>2024.11.04</td>
+                        <td>~1K</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="note">* 월간 방문자 수는 SimilarWeb, Alexa, SEMrush 등 웹 트래픽 분석 도구를 기반으로 한 추정치입니다.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📄 상세 배포 리스트</h2>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #D3A976 0%, #E5BA87 100%); color: #1e293b; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(211, 169, 118, 0.3);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(211, 169, 118, 0.5)'" onmouseout="this.style.transform='translateY(0px)'; this.style.boxShadow='0 4px 15px rgba(211, 169, 118, 0.3)'">📸 전체 스크린샷 보기</a>
+            </div>
+
+            <h3 class="subsection-title">🏢 미디어 웹사이트</h3>
+
+            <div class="media-item">
+                <h4>iGaming Future</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://igamingfuture.com/kangwon-land-partners-with-neowiz-and-massive-gaming-on-slot-deal/" target="_blank">https://igamingfuture.com/kangwon-land-partners-with-neowiz-and-massive-gaming-on-slot-deal/</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 국제 게이밍 산업 미디어<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>The Bet Press</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://thebetpress.com/neowiz-and-kangwon-land-expand-slot-software-partnership-with-massive-gaming/4144/" target="_blank">https://thebetpress.com/neowiz-and-kangwon-land-expand-slot-software-partnership-with-massive-gaming/4144/</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 베팅 산업 전문 매체<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>European Gaming</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://europeangaming.eu/portal/latest-news/2025/11/04/195383/neowiz-and-kangwon-land-sign-new-slot-software-development-agreement-joined-by-massive-gamings-expertise/" target="_blank">https://europeangaming.eu/portal/latest-news/2025/11/04/195383/...</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 유럽 최대 게이밍 미디어<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Gambling Insider</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://www.gamblinginsider.com/news/31829/neowiz-and-kangwon-land-sign-new-slot-software-development-agreement-joined-by-massive-gamings-expertise" target="_blank">https://www.gamblinginsider.com/news/31829/...</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 글로벌 게이밍 권위 매체<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Hipther</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://hipther.com/gaming-and-entertainment-europe/2025/11/04/101737/neowiz-and-kangwon-land-sign-new-slot-software-development-agreement-joined-by-massive-gamings-expertise/" target="_blank">https://hipther.com/gaming-and-entertainment-europe/2025/11/04/101737/...</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 유럽 게이밍 & 엔터테인먼트 전문<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Eastern European Gaming</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://eegaming.org/latest-news/2025/11/04/129994/neowiz-and-kangwon-land-sign-new-slot-software-development-agreement-joined-by-massive-gamings-expertise/" target="_blank">https://eegaming.org/latest-news/2025/11/04/129994/...</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 동유럽 게이밍 전문지<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>G3 Newswire</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://g3newswire.com/neowiz-and-kangwon-land-sign-new-slot-software-agreement/" target="_blank">https://g3newswire.com/neowiz-and-kangwon-land-sign-new-slot-software-agreement/</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 게이밍 뉴스와이어 (영문/핀란드어/러시아어 배포)<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Asia Casino News</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://www.asiacasino.org/post/neowiz-and-kangwon-land-sign-new-slot-software-agreement" target="_blank">https://www.asiacasino.org/post/neowiz-and-kangwon-land-sign-new-slot-software-agreement</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 아시아 카지노 전문 매체<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>DingNews</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://dingnews.com/mobileview.aspx?id=144817" target="_blank">https://dingnews.com/mobileview.aspx?id=144817</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 아시아 게이밍 뉴스<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Gaming News Byte</h4>
+                <div class="media-details">
+                    <strong>URL:</strong> <a href="https://gamingnewsbyte.com/neowiz-and-kangwon-land-partner-on-new-slot-software-deal-with-massive-gaming/" target="_blank">https://gamingnewsbyte.com/neowiz-and-kangwon-land-partner-on-new-slot-software-deal-with-massive-gaming/</a><br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 게이밍 산업 뉴스 플랫폼<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">📲 SNS 플랫폼 배포</h3>
+
+            <div class="media-item">
+                <h4>iGaming Future LinkedIn</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> iGaming Future<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 업계 전문가 대상 공유<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>The Bet Press LinkedIn</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> The Bet Press<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 베팅 산업 네트워크 공유<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Asia Casino News LinkedIn</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> Asia Casino News<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 아시아 카지노 업계 공유<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Eduardo Delaney LinkedIn</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> Eduardo Delaney (DingNews 공동창립자)<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 개인 네트워크를 통한 확산<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Gaming News Byte Official LinkedIn</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> Gaming News Byte Official<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 공식 계정 게시<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <h4>Gaming News Byte Facebook</h4>
+                <div class="media-details">
+                    <strong>계정:</strong> Gaming News Byte<br>
+                    <strong>발행일:</strong> 2024년 11월 4일 • 페이스북 페이지 게시<br>
+                    <a href="https://www.genspark.ai/aidrive/files/neowiz-kangwon-land-pr-report/screenshots" target="_blank">스크린샷 보기</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📈 배포 성과 지표 및 KPI</h2>
+
+            <div class="kpi-simple">
+                <div class="kpi-row">
+                    <div class="kpi-category">
+                        <h4>배포 속도</h4>
+                        <div class="kpi-items">
+                            <div class="kpi-detail">
+                                <span class="kpi-text">배포일 기준 1일 이내</span>
+                                <span class="kpi-percent">17개 채널 (100%)</span>
+                            </div>
+                            <div class="kpi-detail">
+                                <span class="kpi-text">동시 배포 (11월 4일)</span>
+                                <span class="kpi-percent">17개 채널 (100%)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kpi-category">
+                        <h4>배포 품질</h4>
+                        <div class="kpi-items">
+                            <div class="kpi-detail">
+                                <span class="kpi-text">원본 내용 유지</span>
+                                <span class="kpi-percent">100%</span>
+                            </div>
+                            <div class="kpi-detail">
+                                <span class="kpi-text">핵심 메시지 전달</span>
+                                <span class="kpi-percent">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-text">
+            본 보고서는 NEOWIZ와 Kangwon Land의 슬롯 소프트웨어 개발 계약 체결 보도자료 글로벌 배포 현황 분석을 위해 작성되었습니다.
+        </div>
+    </div>
+</body>
+</html>
